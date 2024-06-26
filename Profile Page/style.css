@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* header */
+.header {
+    height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-right: 190px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header nav{
+    text-decoration: none;
+}
+.header li{
+    display:inline-block;
+    padding-left: 50px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.header button{
+    
+    height:30px;
+    width:100px;
+    background-color: skyblue;
+    color: white;
+    padding:5px;
+    margin:10px;
+}
+.nav{
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*  User-Card*/
+#user-card header {
+    padding:1px;
+    height:100px;
+    background-color: skyblue;
+    border-radius: 2px;
+}
+
+#user-card {
+    /*width:400px;
+    height:100;*/
+    border: 2px solid lightgrey;
+    margin-left: 50px;
+    margin-top: 20px;
+    /*display:inline-block;*/
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+#user-card img{
+    width:15px;
+    height:15px;
+}
+#user-card #profile-image{
+    width:150px;
+    height:150px;
+    /* position Absolute */
+    position: absolute;
+    top:15px;
+    left:20px;
+    
+    /* position Fixed */
+    /*position: fixed;
+    top:80px;
+    left: 70px;*/
+    border: 3px solid white;
+    border-radius: 50%;
+}
+#user-card .map-marker{
+    display:flex;
+    justify-content:flex-start;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+#user-card .map-marker p{
+    padding-left: 10px;
+}
+#user-card h2{
+    padding-left:20px;
+    padding-top:70px;
+    padding-bottom: 10px;
+}
+#user-card p{
+    padding-left:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+#user-card .edit{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+/************************************************/
+
+/* container1*/
+#container1{
+    display:flex;
+    flex-direction: column;
+    flex:2;
+    /*justify-content: flex-start;*/
+    
+}
+/* Education **/
+
+#education header{
+    padding-left:20px;
+    /*padding:5px 5px;*/
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    display:flex;
+    align-items: center;
+}
+#education{
+    /*width:400px;*/
+    height:100;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 2px solid lightgrey;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+#education > h3{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+#education p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#education .sub-title{
+    color:darkgray;
+}
+
+/*************************/
+/**main**/
+
+main{
+    width:50%;
+    padding-left: 280px;
+    /*padding-right: 290px;*/
+    display:flex;
+    vertical-align: top;
+    flex-wrap: wrap;
+    
+}
+#container2{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    /*padding-right: 110px;
+    padding-left: 10px;*/
+    font-size: 18px;
+}
+.profile > img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.close-accept-icons{
+    display: flex;
+    justify-content: space-around;
+}
+#close-accept-icons{
+    width: 20px;
+    height: 20px;
+}
+#connection{
+    margin-top: 20px;
+    border: 2px solid lightgrey;
+    margin-left: 15px;
+    display:inline-block;
+    
+}
+#connection header{
+    padding-left:20px;
+    padding-right: 20px;
+    height: 70px;
+    background-color: #333333;
+    color: white;
+    display:flex;
+    align-items: center;
+    
+}
+/*#connection header button{
+    margin-right: 5px;
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+}*/
+.number{
+    margin-right: 5px;
+    border-radius: 45%;
+    width:30px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+#connection #profiles{
+    display:flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+}
+#connection .profile{
+    display: flex;
+    align-items: center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    /*justify-content: space-evenly;*/
+}
+#profiles p{
+    padding-left:10px;
+    padding-right: 25px;
+}
+/******** connections**/
+
+
+#connections header{
+    
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-left:20px;
+    /*padding-right: 20px;*/
+    height: 70px;
+    background-color: #333333;
+    color: white;
+    display:flex;
+    align-items: center;
+}
+/*#connections button{
+    margin-right: 5px;
+    border-radius: 50%;
+    width:40px;
+    height: 25px;
+}*/
+.number1{
+    margin-right: 5px;
+    border-radius: 40%;
+    width:50px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+#connections footer{
+    border: 2px solid lightgrey;
+    margin-left: 15px;
+    padding-top: 10px;
+    height: 40px;
+}
+#connections a{
+    
+    padding-left: 20px;
+}
+#your-connection{
+    /*margin-top: 20px;*/
+    border: 2px solid lightgrey;
+    margin-left: 15px;
+    display:flex; 
+    flex-direction: row;   
+    
+    /*flex-wrap:wrap;*/
+    
+}
+
+#your-connection img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    padding-top:5px;
+}
+/*#your-connection p{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}*/
+#your-connection #image{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#your-connection #name{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display:flex;
+    flex-direction:column;
+    /*justify-content: center;*/
+    align-items: start;
+    justify-content: space-around;
+    
+    
+}

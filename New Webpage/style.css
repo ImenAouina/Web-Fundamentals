@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    background-color: lightblue;
+    vertical-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    color: white;
+    display: inline-block;
+}
+
+nav {
+    display: inline;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+.card{
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 15px;
+
+    display: inline-block;
+    width: 28%;
+}
+
+.card p{
+    margin: 15px 0;
+}
+
+.card button {
+    background-color: lightblue;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: blue;
+}
+
+footer {
+    padding: 30px;
+    background-color: lightblue;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}

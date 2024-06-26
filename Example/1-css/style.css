@@ -1,0 +1,22 @@
+/*h1 {
+    color: rebeccapurple;
+    font-size: 50px;
+}*/
+/*
+p {
+    font-size: 25px;
+    line-height: 50px
+  }*/
+h1 {
+    color: red;
+}
+p {
+    text-align: center;
+}
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+

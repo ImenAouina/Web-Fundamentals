@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="nav">
+            <h1>Dojoweather</h1>
+            <ul class="links">
+                <li onclick="loading()"><a href="#">burbank</a></li>
+                <li onclick="loading()"><a href="#">chicago</a></li>
+                <li onclick="loading()"><a href="#">dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subtitle-line">
+            <h2>San jose </h2>
+            <form>
+                <label>show temperature in</label>
+                <select onchange="convert(this)">
+                    <option > °C</option>
+                    <option > °F</option>
+                </select>
+            </form>
+        </div>
+        <div class="row">
+            <div class="forecast">
+                <h1>today</h1>
+                <img src="./assets/some_rain.png" alt="razi">
+                <p>some rain</p>
+                <p class="temperatures">
+                    <span class="high" id="temp1">24</span>
+                    <span class="low" id="temp2">17</span>
+                </p>
+            </div>
+            <div class="forecast">
+                <h1>today</h1>
+                <img src="./assets/some_clouds.png" alt="razi">
+                <p>some clouds</p>
+                <p class="temperatures">
+                    <span class="high" id="temp3">27</span>
+                    <span class="low" id="temp4">20</span>
+                </p>
+            </div>
+            <div class="forecast">
+                <h1>today</h1>
+                <img src="./assets/some_sun.png" alt="razi">
+                <p>some sun</p>
+                <p class="temperatures">
+                    <span class="high" id="temp5">35</span>
+                    <span class="low" id="temp6">22</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="cookie">
+            <img src="./assets/cookie.png" alt="cookoi">
+            <div class="text">
+                <h2>stop ! cookie</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our site traffic. 
+                <a href="#">Read more...</a></p>
+            </div>
+            <button class="btn" onclick="accept()" > accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belt Review</title>
+</head>
+
+<body>
+    <header class="header_container">
+        <div>
+            <h1 id="logo">
+                Gaming<span>Dojo</span>
+            </h1>
+
+            <div class="side_buttons">
+                <select name="" id="">
+                    <option value="EU">EU</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                </select>
+
+                <div class="shopping">
+                    <img class="icon" src="assets/shopping_cart.png" alt="Shopping Cart">
+                    <span id="shopping_count">0</span>
+                </div>
+
+                <img class="icon" src="assets/magnifying_glass.png" alt="Magnifying Glass">
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="main_container">
+        <div class="content">
+            <div class="highlights">
+                <h2>Highlights</h2>
+                <div class="slider">
+                    <div id="left_arrow">
+                        <img src="assets/left_arrow.png" alt="left arrow" onclick="move(-1)">
+                    </div>
+
+                    <img src="assets/banner_2.jfif" alt="Banner holder" id="banner_image">
+                    <div id="right_arrow">
+                        <img src="assets/left_arrow.png" alt="right arrow" onclick="move(1)">
+                    </div>
+                </div>
+                <div class="indexes">
+                    <div class="image_index"></div>
+                    <div class="image_index highlighted"></div>
+                    <div class="image_index"></div>
+                    <div class="image_index"></div>
+                </div>
+            </div>
+
+            <div class="cards_container">
+                <div class="card">
+                    <img src="assets/banner_1.jfif" alt="Card 1 image">
+                    <div class="bottom_part">
+                        <h3>Cafe Neko: Gold Edition</h3>
+                        <div class="card_logo_container">
+                            <img src="assets/windows.png" alt="Windows logo" onclick="alert('This game is supported on Windows!')">
+                            <img src="assets/apple.png" alt="Apple Logo">
+                        </div>
+                        <div class="card_buttons_container">
+                            <div class="promotion">
+                                -20%
+                            </div>
+                            <div class="prices">
+                                <span class="orginal_price">$14.98</span>
+                                <span class="new_price">$10.49</span>
+                            </div>
+                            <button class="buy" onclick="addItem(this)">
+                                BUY
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/banner_1.jfif" alt="Card 1 image">
+                    <div class="bottom_part">
+                        <h3>Pixel Ninja 2</h3>
+                        <div class="card_logo_container">
+                            <img src="assets/windows.png" alt="Windows logo" onclick="alert('This game is supported on Windows!')">
+                            <img src="assets/apple.png" alt="Apple Logo">
+                        </div>
+                        <div class="card_buttons_container">
+                            <div class="promotion">
+                                -20%
+                            </div>
+                            <div class="prices">
+                                <span class="orginal_price">$14.98</span>
+                                <span class="new_price">$10.49</span>
+                            </div>
+                            <button class="buy" onclick="addItem(this)">
+                                BUY
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/banner_1.jfif" alt="Card 1 image">
+                    <div class="bottom_part">
+                        <h3>Stonepunk 10000BCE</h3>
+                        <div class="card_logo_container">
+                            <img src="assets/windows.png" alt="Windows logo" onclick="alert('This game is supported on Windows!')">
+                            <img src="assets/apple.png" alt="Apple Logo">
+                        </div>
+                        <div class="card_buttons_container">
+                            <div class="promotion">
+                                -20%
+                            </div>
+                            <div class="prices">
+                                <span class="orginal_price">$14.98</span>
+                                <span class="new_price">$10.49</span>
+                            </div>
+                            <button class="buy" onclick="addItem(this)">
+                                BUY
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

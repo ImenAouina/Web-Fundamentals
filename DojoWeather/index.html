@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="nav"> 
+            <h1>DojoWeather</h1>
+            <ul class="links">
+                <li><a href src="#" onclick="cityAlert(this)" >Burbank</a></li>
+                <li><a href src="#" onclick="cityAlert(this)">Chicago</a></li>
+                <li><a href src="#" onclick="cityAlert(this)">Dollas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subtitle-line">
+            <h2>San Jose</h2>
+            <form>
+                <label >show temperature in</label>
+                <select class="temp-type" onchange="change(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="forecast">
+            <h2>Today</h2>
+            <img src="assets/some_rain.png" alt="">
+            <p>Some rain</p>
+            <p class="temperature">
+                <span class="high" id="temp1">24</span>
+                <span class="low" id="temp2">18</span>
+            </p>
+        </div>    
+        <div class="forecast">
+            <h2>Tomorrow</h2>
+            <img src="A:\11CodingDojo\WEB FUNDAMENTALS\dojoweather\assets\some_sun.png" alt="">
+            <p>Some sun</p>
+            <p class="temperature">
+                <span class="high" id="temp3">27</span>
+                <span class="low" id="temp4">19</span>
+            </p>
+        </div>
+        <div class="forecast">
+            <h2>Friday</h2>
+            <img src="A:\11CodingDojo\WEB FUNDAMENTALS\dojoweather\assets\some_clouds.png" alt="">
+            <p>Some Clouds</p>
+            <p class="temperature">
+                <span class="high" id="temp5">21</span>
+                <span class="low" id="temp6">16</span>
+            </p>
+        </div>
+        <div class="forecast">
+            <h2>Saturday</h2>
+            <img src="A:\11CodingDojo\WEB FUNDAMENTALS\dojoweather\assets\some_sun.png" alt="">
+            <p>Some sun</p>
+            <p class="temperature">
+                <span class="high" id="temp7">26</span>
+                <span class="low" id="temp8">21</span>
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="cookie">
+            <img src="A:\11CodingDojo\WEB FUNDAMENTALS\dojoweather\assets\cookie.png" alt>
+            <div class="text">
+                <h2>Stop Cookie Time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our site traffic. 
+                    <a href src="#">read more....</a></p>
+            </div>
+            <button class="btn" onclick="accept()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

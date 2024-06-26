@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*********Top*********/
+.top{
+    background-color: lightblue;
+    color: white;
+}
+.container, .nav{
+    width:1000px;
+    margin:0 auto;
+}
+.nav{
+    display: flex;
+    height:100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h1{
+    font-family: 1.5em;
+}
+.links{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav a{
+    display: flex;
+   text-decoration: none;
+   color:white;
+   font-size: 1.2em;
+}
+/******** subtitle-line ***********/
+.subtitle-line{
+    display: flex;
+    border-bottom: 3px solid black ;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+.subtitle-line select{
+    width:60px;
+}
+.subtitle-line h2{
+    font-size: 1.2em;
+}
+
+/**************** Row ************/
+.row{
+    display:flex;
+    padding-top: 20px;
+    margin:0 auto;
+    width:1000px;
+        
+}
+
+
+.forecast{
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+    margin: 10px;
+    height:300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.forecast img{
+    width:140px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+.forecast h2{
+    font-size: 1.3em;
+}
+.forecast p{
+    font-size: 1em;
+    font-weight: 500;
+}
+.temperature{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.high, .low{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.high{
+    color:red;
+    margin-right: 35px;
+}
+.low{
+    color:blue;
+    
+}
+.high::after, .low::after{
+    content:  "°";
+}
+/**************footer***********/
+.cookie{
+    background-color: lightgray;
+    width: 1000px;
+    height: 110px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;  
+}
+
+.footer{
+    position:absolute;
+    bottom:10px;
+    width:100%;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: skyblue;
+    box-shadow: 3px 3px black;
+    border:2px solid black;
+    font-size: 1.2rem;
+    cursor: pointer;
+} 
+.text{
+    width:70%;
+}
+
+.text h2 {
+    font-size: 1.5rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}

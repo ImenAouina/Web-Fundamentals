@@ -1,0 +1,80 @@
+OFFICE HOUR : 
+During today's office hour, we'll be diving into an exciting activity that will help you practice your HTML and CSS skills. 
+You will be placed into breakout rooms using Zoom, where you'll work in small groups to recreate flags from around the world 
+using only HTML and CSS. This exercise will challenge you to think creatively about colors, shapes, and positioning, as well as
+encourage teamwork and collaboration. By the end of this activity, you will have a better understanding of how to use HTML and 
+CSS to design visual elements, and you will have gained valuable experience working with your peers to solve problems and 
+achieve a common goal. So let's have some fun and see the amazing flag designs you come up with!
+
+
+# First of all Welcome everyone 
+
+# Ask them about their weekend 
+
+# HOUSEKEEPING :
+    - Exam :
+        - Exam window opens on the 28th of April
+        - Exam window closes on the 5th of may
+        - There are two ways depending on how much attention to details they've got :
+            + I share a link with them the 28th and they can start whenever they are ready
+            + I share the link to each one individually when they feel ready
+        - Once they unlock the exam they have got 24 hours before submitting their work
+        - They have 3 attempts at this and it's not a bad sign if you use them all : 
+            + Different Exam for each attempt
+        - Don't wait until the last minute to start the exam
+        - Open book exam : You can look up any resources during the exam : (Internet , Learn Platform , Books etc)
+        - You can't ask for my or the TA's help during the exam unless it's for clarifying something about the exam
+        - IMPORTANT : I can only send you the link if you have finished the passed 4 core assignments
+    
+# Box Model : 
+    - Use the image from "Flex our Blocks" assignment 
+
+
+# DISPLAY FLEX
+    - Go over what display: 
+    - flex does : 
+        Display flex is a CSS property that allows you to create a flexible layout for your containers and their child elements. 
+        By setting a container's display property to flex, it becomes a flex container, and its direct children become flex items. 
+        This property makes it easy to create responsive, fluid designs that adapt to different screen sizes and orientations.
+    - flex-direction : 
+        The flex-direction property determines the main axis of the flex container, along which the flex items are arranged. 
+        The possible values for this property include row, row-reverse, column, and column-reverse. The default value is row, 
+        which arranges items from left to right. Changing the value alters the order and orientation of the items within the container.
+    - justify-content : 
+        The justify-content property is used to align flex items along the main axis of the flex container. It accepts values such as flex-start, 
+        flex-end, center, space-between, and space-around, which determine how the items are spaced and aligned. This property provides precise 
+        control over the positioning of items within the container.
+    - align-items : 
+        Align-items is a property that controls the alignment of flex items along the cross axis, which is perpendicular to the main axis. 
+        It accepts values such as flex-start, flex-end, center, baseline, and stretch. This property is particularly useful for aligning items 
+        vertically or horizontally, depending on the flex-direction setting.
+    - wrap : 
+        The wrap property, specified with flex-wrap, controls whether flex items wrap onto multiple lines or stay in a single line. 
+        The possible values are nowrap (default), wrap, and wrap-reverse. Using wrap allows items to be organized in a more flexible, 
+        grid-like fashion within the container.
+
+    - flex : 
+        The flex property is a shorthand in CSS for specifying the flexibility of a child element within a flex container. 
+        It combines the flex-grow, flex-shrink, and flex-basis properties, allowing you to define how an item should grow or shrink 
+        relative to other items and set its initial size. By adjusting the flex property for each child element, you can easily create dynamic and responsive 
+        layouts that adapt to different screen sizes and orientations, making it a powerful and versatile tool for web design.
+    
+    - gap : 
+        The gap property is used to define the space between flex items in the container. It can be set using both row-gap and column-gap 
+        properties or a shorthand gap property that defines both simultaneously. This property makes it easy to create consistent spacing 
+        between items without relying on margins or padding.
+    - combining these properties : 
+        By combining the various flexbox properties, you can create complex and dynamic layouts with ease. Flexbox allows you to arrange 
+        items in rows or columns, control their alignment and spacing, and adapt the layout to different screen sizes and orientations. 
+        This powerful tool makes designing responsive web pages simple and efficient.
+
+# Why display flex is superior to display block and inline-block
+    - Everything we can do with display block and inline-block we can do with flex
+    - Not everything we can do with display flex we can do with display block and inline-block
+    - CENTERING THINGS VERTICALLY
+
+    Display flex offers greater flexibility and control over layouts compared to display block and inline-block. 
+    While block and inline-block can achieve some of the same layout effects, they often require more complex code and workarounds. 
+    Flexbox simplifies tasks like centering elements vertically, creating grid-like structures, and designing responsive layouts.
+
+# If there is time, we can do some activities like building a webpage with flex model

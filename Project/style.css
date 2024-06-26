@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.header_container{
+    background-color: black;
+    padding: 10px 0;
+    border-top: 8px solid #9900FF;
+    display: flex;
+    justify-content: center!important;
+}
+
+.header_container >div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    color: white;
+}
+
+#logo >span {
+    color: #9900FF;
+}
+
+.icon {
+    width: 30px;
+}
+
+.side_buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.shopping {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.shopping >span {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.main_container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content {
+    width: 70%;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+}
+
+.slider > img {
+    width: 80%;
+}
+
+.slider > div {
+    width: 10%;
+    /* background-color: #9900FF; */
+}
+
+
+
+.indexes {
+    margin-top: 30px!important;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.indexes >div {
+    width: 100px;
+    height: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.highlighted {
+    background-color: #9900FF !important;
+}
+
+#right_arrow , #left_arrow {
+    display: flex;
+    align-items: center;
+}
+
+#right_arrow >img{
+    width: 100px;
+    margin-left: 20px;
+    transform: rotate(180deg);
+}
+
+#left_arrow >img{
+    width: 100px;
+}
+
+.card_logo_container >img {
+    width: 35px;
+}
+
+
+.card {
+    background-color: white;
+    
+}
+
+.cards_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    gap: 20px;    
+}
+
+.card_buttons_container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotion {
+    background-color: #9900FF;
+    color: white;
+    padding: 10px 15px;
+    
+}
+
+
+.bottom_part {
+    padding: 5px 10px 10px 10px;
+}
+
+.buy {
+    background-color: #6AA84F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+
+}
+
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.orginal_price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.new_price {
+    font-size: 1.2rem;
+}
